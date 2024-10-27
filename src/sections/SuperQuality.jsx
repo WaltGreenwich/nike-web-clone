@@ -1,12 +1,12 @@
 import Button from "../components/Button";
 import { shoe8 } from "../assets/images";
-import { arrowRight } from "../assets/icons"
+import { arrowRight } from "../assets/icons";
 
 const SuperQuality = () => {
   return (
     <section
       id="about-us"
-      className="flex justify-between items-center max-lg:flex-col gap-10 w-full max-container"
+      className="flex justify-between items-center max-lg:flex-col gap-10 w-full max-container xs:px-6 sm:px-8"
     >
       <div className="flex flex-1 flex-col">
         <h2 className="font-palanquin text-4xl capitalize font-bold lg:max-w-lg">
